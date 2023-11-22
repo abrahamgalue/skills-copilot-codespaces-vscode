@@ -1,0 +1,32 @@
+function skillsMember() {
+    var member = document.getElementById("member");
+    var skills = document.getElementById("skills");
+    var projects = document.getElementById("projects");
+    var contact = document.getElementById("contact");
+    var about = document.getElementById("about");
+    var memberText = document.getElementById("memberText");
+    var skillsText = document.getElementById("skillsText");
+    var projectsText = document.getElementById("projectsText");
+    var contactText = document.getElementById("contactText");
+    var aboutText = document.getElementById("aboutText");
+    var memberImg = document.getElementById("memberImg");
+    var skillsImg = document.getElementById("skillsImg");
+    var projectsImg = document.getElementById("projectsImg");
+    var contactImg = document.getElementById("contactImg");
+    var aboutImg = document.getElementById("aboutImg");
+    member.style.backgroundColor = "#f5f5f5";
+    skills.style.backgroundColor = "#ffffff";
+    projects.style.backgroundColor = "#ffffff";
+    contact.style.backgroundColor = "#ffffff";
+    about.style.backgroundColor = "#ffffff";
+    memberText.style.color = "#000000";
+    skillsText.style.color = "#000000";
+    projectsText.style.color = "#000000";
+    contactText.style.color = "#000000";
+    aboutText.style.color = "#000000";
+    memberImg.src = "img/member.png";
+    skillsImg.src = "img/skills.png";
+    projectsImg.src = "img/projects.png";
+    contactImg.src = "img/contact.png";
+    aboutImg.src = "img/about.png";
+}
